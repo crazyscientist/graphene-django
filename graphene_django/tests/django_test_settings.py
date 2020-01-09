@@ -2,7 +2,7 @@ import sys
 import os
 
 ROOT_PATH = os.path.dirname(os.path.abspath(__file__))
-sys.path.insert(0, ROOT_PATH + '/examples/')
+sys.path.insert(0, ROOT_PATH + '../../examples/')
 
 SECRET_KEY = 1
 
