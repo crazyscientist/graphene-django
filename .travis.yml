@@ -1,6 +1,8 @@
 language: python
 cache: pip
 dist: xenial
+env:
+  - PYTHONPATH="./examples"
 
 install:
   - pip install tox tox-travis
